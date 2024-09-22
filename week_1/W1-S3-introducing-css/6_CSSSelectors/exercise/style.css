@@ -9,20 +9,20 @@
 h1 {
     color: blue;
 }
-
+/* Element Selector */
 p {
     margin: 10px 0;
 }
-
+/* Element Selector */
 ul {
     margin: 20px 0;
     padding-left: 20px;
 }
-
+/* Element Selector */
 li {
     margin: 5px 0;
 }
-
+/* Element Selector */
 a {
     color: green;
 }
@@ -32,7 +32,7 @@ a {
     background-color: yellow;
     font-weight: bold;
 }
-
+/* Class Selector */
 .special {
     color: purple;
 }
