@@ -1,0 +1,73 @@
+/* General Style */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+text-align: center;
+margin-bottom:  20px;
+}
+
+header h1 {
+color: rgb(226, 17, 17);
+
+}
+
+header p {
+font-size: 20px;
+color: #0a0a0a
+
+}
+
+/* Exercise Box Styles */
+.exercise-box {
+width: 80%;
+padding: 20px;
+margin: 20px auto;
+border: 2px dashed #4b4949;
+text-align: center;
+background-color: #ffffff;
+/* Default Background colour */
+}
+
+.exercise-box p1 {
+margin:  0;
+font-size:  20px;
+color:lightblue;
+font-family: 'Arial';
+}
+
+.exercise-box p2 {
+    color: lightgreen;
+    font-family: 'Times New Roman';
+    font-size:  20px;
+}
+
+.exercise-box p3 {
+    color: lightcoral;
+    font-family: 'Verdana';
+    font-size:  20px;
+}
+
+.exercise-box p4 {
+    font-size:  20px;
+    font-family: 'Courier New';
+    color: lightgoldenrodyellow;
+    background-color: black;
+}
+
+.exercise-box p5 {
+    font-size:  20px;
+    color: lightsalmon;
+    font-family: 'Georgia';
+}
+
+.exercise-box p6 {
+    font-size:  20px;
+    color: lightpink;
+    font-family: Comic Sans MS;
+}
