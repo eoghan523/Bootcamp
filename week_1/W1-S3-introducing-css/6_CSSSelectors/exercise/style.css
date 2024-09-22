@@ -1,4 +1,4 @@
-/* Universal Selector */
+/* Universal Selector will universially apply */
 * {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -22,22 +22,22 @@ ul {
 li {
     margin: 5px 0;
 }
-/* Element Selector */
+/* This is an element selector. Only this section with apply the selector rule */
 a {
     color: green;
 }
 
-/* Class Selector */
+/* Class Selector. This class selector will only apply this rule in the braces when the when the class=highlight on the the index.html */
 .highlight {
     background-color: yellow;
     font-weight: bold;
 }
-/* Class Selector */
+/* This is another Class Selector */
 .special {
     color: purple;
 }
 
-/* ID Selector */
+/* ID Selector. This is selector will apply when prefixed with a hashtag */
 #uniqueDiv {
     color: red;
     font-size: 20px;
