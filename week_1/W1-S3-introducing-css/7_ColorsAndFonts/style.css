@@ -1,0 +1,41 @@
+/* General Style */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(212, 226, 239);
+    margin: 20px;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+text-align: center;
+margin-bottom:  20px;
+}
+
+header h1 {
+color: gray;
+
+}
+
+header p {
+font-size: 20px;
+color: #fff666
+
+}
+
+/* Exercise Box Styles */
+.exercise-box {
+width: 80%;
+padding: 20px;
+margin: 20px auto;
+border: 2px dashed #aaaaaa;
+text-align: center;
+background-color: #ffffff;
+/* Default Background colour */
+
+}
+
+.exercise-box p {
+margin:  0;
+font-size:  16px;
+}
