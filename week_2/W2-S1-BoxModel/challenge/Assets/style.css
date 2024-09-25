@@ -1,20 +1,36 @@
+/* CSS Variables */
+:root {
+    --clr-primary:  #3a3a3a;
+    --clr-secondary:  #e9f32d;
+    --clr-body-bg: white;
+    --clr-product-bg: rgba(22, 2, 2, 0);
+    --clr-banner:  #00a2e8;
+    --border-radius: 15px;
+    --box-shadow: 5px 5px 8px rgba(20, 21, 20, 0.25);
+    --border: 2px solid rgb(173, 164, 164);
+    --primary-font: 'Trebuchet MS';
+    --secondary-font: 'Franklin Gothic Medium';
+
+}
+
+
 /* Basic page styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: var(--primary-font);
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: var(--clr-product-bg);
 }
 
 header {
-    background-color: #3a3a3a;
-    color: white;
+    background-color: var(--clr-primary) ;
+    color: var(--clr-secondary);
     text-align: center;
     padding: 20px 0;
+
 }
 
 header h1 {
-    /* Add margin to the top and bottom of the heading */
     margin: 0.5em 0;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -22,20 +38,21 @@ header h1 {
 
 nav ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 5px;
+    margin: 10px;
     display: flex;
     justify-content: center;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 15px;
 }
 
 nav ul li a {
-    color: white;
+    color: var(--clr-body-bg);
     text-decoration: none;
     font-weight: bold;
+    color: var(--clr-secondary);
 }
 
 img {
@@ -43,10 +60,11 @@ img {
 }
 
 .banner {
-    background-color: #00a2e8;
-    color: white;
+    background-color: var(--clr-banner) ;
+    color: var(--clr-body-bg);
     text-align: center;
     padding: 40px 0;
+    font-family:  var(--secondary-font);
 }
 
 .banner h2 {
@@ -64,18 +82,15 @@ img {
 }
 
 .product {
-    background-color: white;
+    background-color: var(--clr-body-bg);
     
     width: 200px;
     padding: 20px;
     margin: 20px;
     text-align: center;
-    border: 2px solid rgb(173, 164, 164);
-    /* Old styling */
-   
-    /* Add New styling here */
-    border-radius: 15px;
-    box-shadow: 5px 5px 8px rgba(20, 21, 20, 0.25);
+    border: var(--border) ; 
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow) ;
 
 }
 
