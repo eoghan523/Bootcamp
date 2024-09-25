@@ -1,6 +1,9 @@
 section {
-    width: 600px;
-    height: 600px;
+    width: 410px;
+    height: 410px;
+    padding: 20px;
+    margin: 20px;
+    border: 9px;
     text-align: center;
     border: 15px solid black;
 }
