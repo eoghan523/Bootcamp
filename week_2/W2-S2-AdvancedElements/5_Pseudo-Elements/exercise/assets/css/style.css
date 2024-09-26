@@ -34,7 +34,14 @@ label {
     display: block;
     margin-bottom: 5px;
 }
-
+.phone-label::before {
+    content:  "📞";
+    padding: 2px;
+}
+.email-label::before {
+    content: "✉️";
+    padding: 2px;
+}
 input,
 textarea {
     width: 95%;
@@ -66,6 +73,9 @@ button:hover {
     color: #007bff;
     text-decoration: none;
     font-size: 14px;
+}
+.terms-link:hover {
+    color: aquamarine;
 }
 
 /* Add hover and visited states for the link */
