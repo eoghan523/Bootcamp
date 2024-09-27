@@ -1,0 +1,196 @@
+/* CSS Variables */
+:root {
+    --clr-primary:  #3a3a3a;
+    --clr-secondary:  #e9f32d;
+    --clr-body-bg: white;
+    --clr-product-bg: rgba(22, 2, 2, 0);
+    --clr-banner:  #00a2e8;
+    --border-radius: 15px;
+    --box-shadow: 5px 5px 8px rgba(20, 21, 20, 0.25);
+    --border: 2px solid rgb(173, 164, 164);
+    --primary-font: 'Trebuchet MS';
+    --secondary-font: 'Franklin Gothic Medium';
+
+}
+
+
+/* Basic page styles */
+body {
+    font-family: var(--primary-font);
+    margin: 0;
+    padding: 0;
+    background-color: var(--clr-product-bg);
+}
+
+header {
+    background-color: var(--clr-primary) ;
+    color: var(--clr-secondary);
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+header h1 {
+    margin: 0.5em 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav il:hover {
+transform: scale(1.05);
+    
+    
+}
+
+nav ul li {
+    margin: 15px;
+}
+
+nav ul li a {
+    color: var(--clr-body-bg);
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--clr-secondary);
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.banner {
+    background-color: var(--clr-banner) ;
+    color: var(--clr-body-bg);
+    text-align: center;
+    padding: 40px 0;
+    font-family:  var(--secondary-font);
+    position: sticky;
+    top: 2px;
+}
+
+.banner h2 {
+    margin: 0;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 60px;
+
+    
+}
+
+.product {
+    background-color: var(--clr-body-bg);
+    cursor: pointer;
+    transform: scale (1.03) rotate(15deg);
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border: var(--border) ; 
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow) ;
+}
+
+.product button { 
+    background-color: #e9f32d;
+    paddin
+
+
+
+}
+.product:hover {
+    transform: translate(30px, 30px);
+}
+
+
+    
+/* Contact form CSS style */
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 5px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+  
+  /* Submit button */
+  input[type=submit]:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    position: sticky;
+    top: 2px;
+    z-index: 2;
+  }
+
+  .fname::before {
+content: "🖊️";
+padding: 2px;
+  }
+
+  .lname::before  {
+    content: "🖊️";
+    padding: 2px;
+  }
+
+.email::before{
+    content: "📨";
+    padding: 2px;
+}
+  .phone::before {
+ content: "☎️";
+ padding: 2px;  
+}
+.country::before {
+    content: "🌍";
+    padding: 2px;
+}
+
+footer {
+    height: 100px;
+    text-align: center;
+
+}
+
+.copyright { 
+    cursor: pointer;
+    color: #00a2e8;
+}
+.copyright:hover {
+    transform: scale(1.05);
+
+}
+.copyright:visited {
+    color: blue;
+}
